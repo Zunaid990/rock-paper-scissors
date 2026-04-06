@@ -36,9 +36,7 @@ Modular Logic: Separated the game choices into a constant array for easy mainten
 Lessons Learned:
 This project was a great way to practice Event Handling and DOM Manipulation. I learned how to effectively use switch statements to handle multiple game outcomes and how to manage global state (the scores) across multiple function calls. It also reinforced the importance of visual feedback in UX—using colors and large icons to make the game feel "alive."
 
-🔗 Other Projects:
-🌦️ Weather Now – A real-time weather app using the OpenWeatherMap API.
-
-🧮 Calculator App – A responsive calculator with live display.
-
-🃏 Card Battle Game – A two-player card battle using an API.
+## 🔗 Other Projects:
+- [🧮 Calculator App](https://github.com/Zunaid990/calculator-app) – A responsive calculator with live display.  
+- [🃏 Card Battle Game](https://github.com/Zunaid990/zunaids-card-battle.git) – A two-player card battle using an API.  
+- [⏱️ Stopwatch App](https://github.com/Zunaid990/Stopwatch-app.git) – A clean stopwatch with start, pause, and reset functions.
