@@ -1,39 +1,42 @@
-# 🌦️ Weather Now  
+# ✊ Rock Paper Scissors  
 
-A simple, responsive weather application that provides real-time weather updates for any city. Built with a clean UI, this project focuses on API integration, asynchronous JavaScript, and dynamic DOM updates to deliver a smooth user experience.
+A classic, interactive Rock-Paper-Scissors game built with a clean UI and real-time score tracking. This project focuses on DOM manipulation and conditional logic to provide a smooth and engaging user experience.
 
 👉 **Live Demo:**  
-https://zunaid990.github.io/Weather-now/
-
-![Weather App Screenshot](./weather.JPG)
+https://zunaid990.github.io/rock-paper-scissors/
 
 
 ## 🛠️ How It's Made  
-**Tech used:** HTML, CSS, JavaScript, OpenWeatherMap API  
+**Tech used:** HTML, CSS, JavaScript  
 
 This application uses:
 
-- **HTML** for structuring the weather interface  
-- **CSS** for styling, layout, and responsive design across devices  
-- **JavaScript** for fetching API data, handling user input, and updating the UI dynamically  
-- **Fetch API + async/await** to retrieve real-time weather data efficiently  
+- **HTML** for the game layout and display elements  
+- **CSS** for the vibrant UI, hover effects, and responsive Flexbox alignment  
+- **JavaScript** for the core game logic, random computer selection, and dynamic score updates  
 
 
 ## 🚀 Main Features  
 
-- **Live Weather Data:** Displays real-time temperature for any searched city  
-- **Detailed Info:** Shows humidity and wind speed  
-- **Dynamic Weather Icons:** Updates visuals based on current weather conditions  
-- **Error Handling:** Displays messages for invalid or unknown city names  
-- **Responsive Design:** Works smoothly on both mobile and desktop screens  
+- **Real-time Scoring:** Tracks and displays wins for both the player and the computer  
+- **Dynamic Feedback:** Changes text color (green for win, red for loss) based on the round outcome  
+- **Interactive UI:** Large emoji buttons with smooth transition effects  
+- **Instant Updates:** Scores update instantly without refreshing the page  
 
 
 ## ⚡ Optimizations  
 
-- **Async/Await:** Simplified API calls for cleaner and more readable code  
-- **Try/Catch Handling:** Improved error management for better user experience  
-- **Modular Functions:** Organized JavaScript into reusable and maintainable functions  
-- **Responsive Layout:** Used modern CSS techniques for adaptability across devices  
+- **Ternary Operators:** Used clean conditional logic to determine win/loss outcomes  
+- **Class Toggle:** Managed UI feedback efficiently using `classList`  
+- **Flexbox Layout:** Ensured all elements stay centered and responsive  
+- **Modular Logic:** Stored game choices in a constant array for easy maintenance  
+
+
+## 📚 Lessons Learned  
+
+This project was a great way to practice **event handling and DOM manipulation**. I learned how to manage game state (scores) across multiple interactions and how to structure logic using conditional statements.
+
+It also reinforced the importance of **user experience (UX)**—using visual feedback like colors and animations to make the application feel interactive and engaging. 
 
 
 ## 📚 Lessons Learned  
